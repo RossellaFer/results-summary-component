@@ -29,7 +29,7 @@ for (let i = 0; i < data.length; i++) {
    resultsHTML += `
     <div class="individual_score">
         <div class="individual_score_description">
-            <img src="${item.icon}" />
+            <img src="${item.icon}" alt="${item.category} icon"/>
             <p>${item.category}</p>
         </div>
         <p class="individual_score_points"><span class="points_highlight">${item.score}</span> / 100</p>
